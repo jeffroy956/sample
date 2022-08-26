@@ -30,3 +30,5 @@ git pull
 git push
 
 # rebasing with a remote
+
+change in dev branch
