@@ -40,3 +40,12 @@ git branch dev
 git switch dev
 make changes
 git push -u origin dev
+
+# never rebase shared repository commits, rebase locally
+
+# fork clones a project from someone else to my github
+
+you can configure two remotes when you want to use a project as your base and then
+
+have an upstream (original author) and origin (my fork)
+
