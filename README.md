@@ -32,3 +32,11 @@ git push
 # rebasing with a remote
 
 change in dev branch
+# create a new branch locally and then add to remote
+https://stackoverflow.com/questions/2765421/how-do-i-push-a-new-local-branch-to-a-remote-git-repository-and-track-it-too
+Edit files, add and commit. Then push with the -u (short for --set-upstream) option:
+
+git branch dev
+git switch dev
+make changes
+git push -u origin dev
